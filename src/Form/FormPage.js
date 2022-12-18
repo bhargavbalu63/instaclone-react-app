@@ -9,7 +9,7 @@ function FormPage() {
     const resizeFile = (file) =>
         new Promise((resolve) => {
             Resizer.imageFileResizer(
-                file,
+                file, 
                 600,
                 600,
                 "JPEG",
